@@ -10,4 +10,4 @@ func main() {
 
 // Print every number from 1 to 10,000
 // solution: https://play.golang.org/p/voDiuiDGGw
-// video: 050
+// Video: 050
