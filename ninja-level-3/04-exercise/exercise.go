@@ -3,15 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	i := 1987
-	for i < 2021 {
+
+	i := 1985
+	for {
+		if i > 2017 {
+			break
+		}
 		fmt.Println(i)
 		i++
 	}
 }
 
 // Create a for loop using this syntax
-// for condition { }
+// for { }
 // Have it print out the years you have been alive.
-// solution: https://play.golang.org/p/tnyqBPJ-i5
-// video: 052
+// solution: https://play.golang.org/p/9VpnB-I1Pz
+// video: 053
