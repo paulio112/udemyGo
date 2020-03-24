@@ -28,6 +28,8 @@ func main() {
 			"Strawberry",
 		},
 	}
+
+	//Sample how to map from a construct based on a key of last name.
 	m := map[string]person{
 		p1.last_name: p1,
 		p2.last_name: p2,
