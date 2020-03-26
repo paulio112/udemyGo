@@ -11,6 +11,9 @@ func foo() {
 	defer func() {
 		fmt.Println("foo DEFER ran")
 	}()
+	defer func() {
+		fmt.Println("foo DEFER ran2")
+	}()
 	fmt.Println("foo ran")
 }
 
