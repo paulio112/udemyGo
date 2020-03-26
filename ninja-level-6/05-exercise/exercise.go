@@ -46,7 +46,6 @@ func main() {
 	//calling a method of info with TYPE circle assigned to a variable
 	info(circ)
 	info(squa)
-
 }
 
 // create a type SQUARE
