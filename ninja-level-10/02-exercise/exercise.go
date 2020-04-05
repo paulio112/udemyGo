@@ -28,10 +28,7 @@ func main() {
 
 }
 
-// Hands-on exercise #2
-// Get this code running:
-// https://play.golang.org/p/oB-p3KMiH6
-// solution: https://play.golang.org/p/isnJ8hMMKg
-// https://play.golang.org/p/_DBRueImEq
-// solution: https://play.golang.org/p/mgw750EPp4
-// video: 165
+// Hands-on exercise #4
+// Starting with this code, pull the values off the channel using a select statement
+// solution: https://play.golang.org/p/FulKBY5JNj
+// video: 167
