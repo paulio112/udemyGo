@@ -29,8 +29,10 @@ func main() {
 }
 
 // toJSON needs to return an error also
+
 func toJSON(a interface{}) ([]byte, error) {
 	bs, err := json.Marshal(a)
+	// Return byte plus erro
 	if err != nil {
 		return []byte{}, fmt.Errorf("There was an error in toJSON: %v", err)
 	}
